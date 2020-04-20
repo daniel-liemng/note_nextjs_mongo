@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 16px;
+}
+
+.navbar {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #008cba;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.5s;
+}
+
+.navbar .create {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.5s;
+}
+
+.navbar-brand:hover,
+.create:hover {
+  color: orange;
+}
+
+.note {
+  margin: 1rem;
+}
+
+.form-container {
+  width: 400px;
+  margin: 20px auto;
+}
